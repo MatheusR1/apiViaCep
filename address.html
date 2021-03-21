@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+
+    <title>apiFech</title>
+</head>
+<body>
+  
+    <div class="container mt-5">
+        <h1 class="mb-2"> Endereço</h1>
+        <form>
+                <div class="form-group">
+                    <label for="inputAddress">CEP</label>
+                    <input type="text" class="form-control" id="cep" placeholder="EX : 1411-165">
+                </div>
+
+                <div class="form-group">
+                    <label for="cidade">CIDADE</label>
+                    <input type="text" class="form-control" id="localidade">
+                </div>
+
+                <div class="form-group">
+                    <label for="bairro">BAIRRO</label>
+                    <input type="text" class="form-control" id="bairro">
+                </div>
+
+                <div class="form-group">
+                    <label for="logradouro">Rua</label>
+                    <input type="text" class="form-control" id="logradouro">
+                </div>
+                
+                <div class="form-group">
+                    <label for="complemento">COMPLEMENTO</label>
+                    <input type="text" class="form-control" id="complemento" placeholder="tua tal, perto de tal">
+                </div>
+                <div class="form-group">
+                    <label for="complemento">COMPLEMENTO</label>
+                    <input type="text" class="form-control" id="uf" >
+                </div>
+
+                <div class="form-group">
+                    <label for="numero">NÚMERO</label>
+                    <input type="text" class="form-control" id="numero">
+                </div>
+
+            <button type="submit" class="btn btn-success mt-2">enviar</button>
+
+        </form>
+    </div>
+    <script src="./apiViaCep.js"></script>
+</body>
+</html>
